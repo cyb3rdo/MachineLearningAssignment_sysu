@@ -2,7 +2,7 @@
 本项目为**机器学习**课程的大作业，主要任务是基于[ReChorus](https://github.com/THUwangcy/ReChorus)框架，对论文[Denoising Implicit Feedback for Recommendation.](https://arxiv.org/abs/2006.04153)中的ADT(Adaptive Denoising Training)训练策略尝试复现。
 
 ## **代码修改**
-- **增加的数据集**：位于`./ReChorus/data/MIND_Small`
+- **增加的数据集**：位于`./ReChorus/data/MIND_Small`，由于文件大小原因，以zip格式上传，运行前请解压。
 - **增加的Runner**：位于`./ReChorus/src/helpers/ADTRunner.py`
 - **增加的模型代码** ：位于`./ReChorus/src/models/context/FM_ADT.py`以及`./ReChorus/src/models/context/WideDeep_ADT.py`
 
